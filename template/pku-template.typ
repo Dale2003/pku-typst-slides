@@ -192,9 +192,7 @@
     if pku-pagebreak-state.get() {
       pagebreak(weak: false)
     }
-    // v(0.1cm)
     align(center, text(fill: pku-blue, size: 24pt, weight: "bold")[#it.body])
-    // v(0.1em)
   }
 
   // 设置列表样式 - 增大字号

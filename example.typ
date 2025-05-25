@@ -84,13 +84,13 @@
   width: 100%,
   inset: 10pt,
   ```python
-# 这是一个Python代码示例
-def hello_pku():
-    """向北京大学问好"""
-    print("Hello, Peking University!")
-    
-if __name__ == "__main__":
-    hello_pku()
+  # 这是一个Python代码示例
+  def hello_pku():
+      """向北京大学问好"""
+      print("Hello, Peking University!")
+      
+  if __name__ == "__main__":
+      hello_pku()
   ```
 )
 
@@ -101,13 +101,13 @@ if __name__ == "__main__":
   width: 100%,
   inset: 10pt,
   ```cpp
-// 这是一个C++代码示例
-#include <iostream>
+  // 这是一个C++代码示例
+  #include <iostream>
 
-int main() {
-    std::cout << "Hello, PKU!" << std::endl;
-    return 0;
-}
+  int main() {
+      std::cout << "Hello, PKU!" << std::endl;
+      return 0;
+  }
   ```
 )
 
@@ -128,7 +128,6 @@ int main() {
     [更长的数据], [中等长度], [短数据],
   )
 ]
-
 
 #pku-block(title: "表格说明")[
   表格用于展示结构化数据，可以使用不同的对齐方式。
@@ -162,17 +161,17 @@ int main() {
 #pku-enable-pagebreak(false)
 
 #align(center)[
-    #v(1cm)
-    #text(size: 25pt, weight: "bold")[感谢使用北京大学Typst模板]
-    
-    #v(1cm)
-    
-    #image("assets/images/pku-logo.png", height: 4cm)
-    
-    #v(1cm)
-    
-    #text(size: 25pt, weight: "bold")[
-        模板文件位于 `template/` 目录下\
-        图片资源位于 `assets/images/` 目录下
-    ]
+  #v(1cm)
+  #text(size: 25pt, weight: "bold")[感谢使用北京大学Typst模板]
+  
+  #v(1cm)
+  
+  #image("assets/images/pku-logo.png", height: 4cm)
+  
+  #v(1cm)
+  
+  #text(size: 25pt, weight: "bold")[
+    模板文件位于 `template/` 目录下\
+    图片资源位于 `assets/images/` 目录下
+  ]
 ]

@@ -1,6 +1,6 @@
 # 北京大学 Typst 幻灯片模板 (PKU Typst Slides)
 
-一个简洁、专业的北京大学 Typst 演示文稿模板，适用于学术报告、课程演示等场景。
+一个简洁、专业的北京大学 Typst 演示文稿模板，适用于学术报告、课程演示等场景。本项目参考LaTeX类似模板，使用Typst重新制作，更简洁高效。
 
 ![北京大学校徽](assets/images/pku-logo.png)
 
@@ -152,11 +152,13 @@ typst compile example.typ
   ```python
   def hello_pku():
       print("Hello, Peking University!")
-  ```
+```
+
 )
 
 // 方式二：使用模板提供的函数（如果模板中定义了该函数）
 #pku-code("def hello_pku():\n    print('Hello, PKU!')", lang: "python")
+
 ```
 
 ### 手动分页控制
